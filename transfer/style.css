@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    background: #fee2b3;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.logo{
+    color: #000000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 15px;
+    color: #000000;
+}
+
+nav ul li a {
+ 
+    color: black;
+    font-weight: 500;
+}
+
+.tto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: url('bg1.jpg') center/cover;
+    color: white;
+    height: 500px;
+}
+
+.candy {
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.candy h1 {
+    font-size: 40px;
+}
+
+.candy p {
+    margin-top: 10px;
+}
+
+.appointment-form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    color: black;
+    width: 350px;
+}
+
+.appointment-form h4 {
+    margin-bottom: 15px;
+    
+}
+
+.appointment-form input, .appointment-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.appointment-form button {
+    background: #fee2b3;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.appointment-form button:hover {
+    background: #fee2b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.practice-areas {
+    padding: 50px 20px;
+}
+
+.practice-areas h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.practice-areas h2 span {
+    font-weight: bold;
+    color: black;
+}
+
+.practice-areas p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.tto-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.col {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.col:hover {
+    transform: translateY(-5px);
+}
+
+.col img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.col h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.col p {
+    color: #666;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.legal-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.images-container {
+    display: flex;
+    gap: 20px;
+}
+
+.images-container img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    max-width: 500px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.content h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.content h2 span {
+    font-weight: bold;
+    color: black;
+}
+
+.content p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.appointment-btn {
+    background-color: #f4c08e;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.appointment-btn:hover {
+    background-color: #e0a765;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonial-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+   margin-left: 30px;
+}
+ 
+.card img {
+    width: 60px;
+    height: 60px;    
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: sans-serif; /* Choose a suitable font */
+    margin: 20px; /* Add some margin */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+}
+
+.left-column {
+    flex: 1; /* Takes up available space */
+    padding-right: 20px; /* Add spacing between columns */
+}
+
+.right-column {
+    flex: 1; /* Takes up available space */
+}
+
+h1 {
+    color: #333; /* Example heading color */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.checkmark {
+    color: green; /* Style for checkmarks */
+    margin-right: 5px;
+}
+
+.content-box {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.containertt {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+}
+.image-column {
+    flex: 1;
+    flex-wrap: wrap;
+}
+.image-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.content-column {
+flex:2;
+    
+}
+.content-column h2 {
+    font-size: 28px;
+    text-align: left;
+    
+
+}
+.content-column h2 strong {
+    font-weight: bold;
+    
+}
+.content-column p {
+    margin: left;
+    text-align: left;
+}
+
+.content-column ul li {
+    text-align: left;
+ 
+}
+
+.faq-column {
+    flex: 1;
+    text-align: left;
+
+}
+.faq-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    text-align: left;
+}
+.faq-box:first-child {
+    font-weight: bold;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+
+
+
+
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('bg1.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px 20px;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    width: 15%;
+    flex-wrap: wrap;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+
+.footer-section ul li a:hover {
+    opacity: 1;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}

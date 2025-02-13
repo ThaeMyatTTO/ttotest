@@ -1,0 +1,28 @@
+
+
+body {
+    background-color: #c6eb4d;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.item1{
+    color: brown;
+    background-color: #fff;
+}
+.item2{
+    color: rgb(83, 42, 165);
+    background-color: aqua;
+}
+
+.item3{
+    color: rgb(253, 245, 0);
+    background-color: rgb(255, 85, 0);
+}
